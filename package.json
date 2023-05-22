@@ -1,7 +1,19 @@
 {
   "dependencies": {
     "@popperjs/core": "^2.11.7",
+    "@rails/activestorage": "^7.0.4-3",
+    "@rails/webpacker": "5.4.4",
     "bootstrap-icons": "^1.10.5",
-    "sass": "^1.62.1"
+    "file-loader": "^6.2.0",
+    "sass": "^1.62.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "build": "webpack-dev-server --mode development"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-dev-server": "^3"
   }
 }
